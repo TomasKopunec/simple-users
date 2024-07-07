@@ -1,2 +1,2 @@
-def b():
+def function_b():
     return 'b'

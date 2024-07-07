@@ -1,2 +1,2 @@
-def c():
+def function_c():
     return 'c'

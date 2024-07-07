@@ -1,1 +1,2 @@
-.docs_output/
+# Ignore docs_output directory
+docs_output/
