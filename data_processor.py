@@ -10,3 +10,6 @@ class DataProcessor:
     
     def check_emails(self, emails):
         return [validate_email(email) for email in emails]
+    
+    def check_email(self, email):
+        return validate_email(email)
