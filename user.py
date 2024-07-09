@@ -15,3 +15,6 @@ class User:
     
     def update_email(self, new_email):
         self.email = new_email
+        
+    def update_name(self, new_name):
+        self.name = new_name

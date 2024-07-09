@@ -10,7 +10,7 @@ def main():
     print(user)
     
     processor = DataProcessor()
-    emails = ['invalid', 'bob@company', 'alice@gmail.com']
+    emails = ['invalid', 'bob@company', 'alice@gmail.com', 'tomino123@yahoo.com']
     result = processor.check_emails(emails)
     print(f"Email validation output: {result}")
 
