@@ -12,6 +12,6 @@ class Api():
         print("Processing data...")
         function_c()
         
-    def debug():
-        print("Debugging data...")
-        function_c()
+def main():
+    Api.run()
+    Api.process()
