@@ -1,2 +1,3 @@
 # Ignore docs_output directory
 docs_output/
+__pycache__/

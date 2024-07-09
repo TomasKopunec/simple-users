@@ -10,9 +10,9 @@ def main():
     print(user)
     
     processor = DataProcessor()
-    data = ["apple", "banana", "cherry"]
-    processed_data = processor.process_data(data)
-    print(f"Processed Data: {processed_data}")
+    emails = ['invalid', 'bob@company', 'alice@gmail.com']
+    result = processor.check_emails(emails)
+    print(f"Email validation output: {result}")
 
 if __name__ == "__main__":
     main()
